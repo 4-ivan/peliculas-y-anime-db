@@ -1,0 +1,197 @@
+body {
+
+    font-family: Arial, sans-serif;
+    background-color: #00ddffe1; 
+    color: #124fdb;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body {
+    font-family: 'Bungee', sans-serif;
+}
+
+
+header {
+    background-color: #ffcc00;
+    padding: 20px 0;
+    text-align: center;
+}
+
+h1 {
+    color: #ff3300;
+    margin: 0;
+}
+
+nav {
+    background-color: #ff9900;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #ff6600;
+}
+
+section {
+    margin: 20px;
+    text-align: center;
+}
+
+img {
+    width: 200px; 
+    height: auto; 
+    margin: 10px;
+    border: 4px solid #ffcc00; 
+    border-radius: 50%; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.05); 
+}
+
+img:active {
+    transform: scale(0.95); 
+}
+
+footer {
+    background-color: #ffcc00;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.movie-list, .anime-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.movie-list li, .anime-list li {
+    padding: 10px 0;
+}
+
+.carousel-item img {
+    height: 400px; 
+    object-fit: cover;
+}
+
+.btn-custom {
+    background-color: #ffcc00;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-custom:hover {
+    background-color: #ff9900;
+    transform: scale(1.05);
+}
+
+.btn-custom:active {
+    transform: scale(0.95);
+}
+
+.anime-images img, .movie-images img {
+    width: 200px; 
+    height: auto; 
+    margin: 10px;
+    border: 4px solid #ffcc00; 
+    border-radius: 15px; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.anime-images img:hover, .movie-images img:hover {
+    transform: scale(1.05); 
+}
+
+h1, h2 {
+    animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+    0% { 
+        opacity: 0; 
+        transform: translateY(-20px); 
+    }
+    100% { 
+        opacity: 1; 
+        transform: translateY(0); 
+    }
+}
+.movie-images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 5px; 
+    justify-items: center;
+    align-items: center;
+}
+
+.movie-images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 1px; 
+    justify-items: center; 
+    align-items: center; 
+}
+
+.movie-images img {
+    width: 100%; 
+    max-width: 300px; 
+    height: auto;
+    margin: 0; 
+    border: 2px solid #ffcc00; 
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.movie-images img:hover {
+    transform: scale(1.05); 
+}
+
+.movie-list li {
+    display: block;
+    padding: 10px 0;
+}
+
+.anime-images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 1px; 
+    justify-items: center; 
+    align-items: center; 
+}
+
+.anime-images img {
+    width: 100%; 
+    max-width: 300px; 
+    height: auto;
+    margin: 0;
+    border: 2px solid #ffcc00; 
+    border-radius: 10px; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.anime-images img:hover {
+    transform: scale(1.05); 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); 
+}
+
+.anime-list li {
+    display: block;
+    padding: 10px 0; 
+}
+
